@@ -77,6 +77,6 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ##Transformations
 
-The original data was read and the test and train sets were combines into one set. 
+The original data was read and the test and train sets were combined into one set. 
 Only the variables containing "mean" or "std" were kept. The mean of the variables 
 were calculated for each subject, activity pair.
