@@ -1,5 +1,5 @@
 # This R-scripts reads and tidies the Samsung data set
-# and writes a summary csv file containing means of the original data
+# and writes a summary file containing means of the original data
 
 ############
 # Read files
