@@ -80,7 +80,10 @@ levels(tidydata$Activity) <- activity_labels[,"ActivityName"]
 # Create the smaller data set with means
 require(data.table)
 datatable <- data.table(tidydata)
+#Add "Mean" to column names
+names(datatable)[3:68] <- paste("Mean",  names(datatable)[3:68], sep="")
+#Calculate the means by subject and activity
 tidymeansdata <- datatable[,lapply(.SD,mean), by=list(Subject,Activity) ]
 
 # Write the data to a csv file
-write.csv(tidymeansdata,"Means.csv",row.names=FALSE)
+write.table(tidymeansdata,"means.txt",row.names=FALSE)
