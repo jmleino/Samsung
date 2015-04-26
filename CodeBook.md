@@ -4,7 +4,7 @@
 * Subject: The number of the test person
 * Activity: The activity performed for the observation
 
-The following variables include the mean of the original variable. All values are scaled into range -1, 1. 
+The following variables hold the mean of the original variables. All values are scaled into range -1, 1. 
 For the meaning of the variables, please refer the original dataset at 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
