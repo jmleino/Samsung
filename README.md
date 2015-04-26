@@ -1,13 +1,12 @@
 # Getting and Cleaning Data Course Project
 
-This project consists of four files:
+This project consists of three files:
 * README.md describing the contents of the file
 * run_analysis.R contains the R script which reads and 
 * CodeBook.md describes the variables, the data and the transformations used
-* Means.csv which contains the final output of the script
 
 The script assumes that it is in the same directory as 
-the data direcotry UCI HAR Dataset.
+the data directory "UCI HAR Dataset".
 
 The result data can be read with the command
 read.table("means.txt", header = TRUE)
