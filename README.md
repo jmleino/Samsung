@@ -1,4 +1,4 @@
-# Programming assignement 2
+# Getting and Cleaning Data Course Project
 
 This project consists of four files:
 * README.md describing the contents of the file
