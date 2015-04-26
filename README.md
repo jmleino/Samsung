@@ -1,8 +1,8 @@
 # Getting and Cleaning Data Course Project
 
 This project consists of three files:
-* README.md describing the contents of the file
-* run_analysis.R contains the R script which reads and 
+* README.md describing the contents of the files and how the script works
+* run_analysis.R contains the R script which reads, modifies and writes the data
 * CodeBook.md describes the variables, the data and the transformations used
 
 The script assumes that it is in the same directory as 
