@@ -13,7 +13,8 @@ read.table("means.txt", header = TRUE)
 
 ## The analysis script
 
-The analysis script has comments that documents its working.
+Only the main steps of the analysis are explained here.
+The actual analysis script has comments that explain its working in more detail.
 The analysis script uses the following main steps:
 
 1. Read files
@@ -22,7 +23,7 @@ The analysis script uses the following main steps:
 4. Set column names
 5. Clean column names
 6. Merge data into one data frame
-7. Convert integers variables into factors
+7. Convert integer variables into factors
 8. Set factor level names for activities
 9. Calculate the means by subject and activity
 10. Write the data to a txt file
